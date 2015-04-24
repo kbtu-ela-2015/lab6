@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/actionbar">>
+    <GridLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/center"
+        android:layout_centerInParent="true"
+        android:rowCount="3"
+        android:columnCount="2">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/fit"
+            android:id="@+id/buttonFIT"
+            android:background="@drawable/selector_button_room"
+            android:layout_margin="10dp"
+            android:padding="5dp"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/fogi"
+            android:id="@+id/buttonFOGI"
+            android:background="@drawable/selector_button_room"
+            android:layout_margin="10dp"
+            android:padding="5dp"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/BS"
+            android:id="@+id/buttonBS"
+            android:layout_below="@+id/buttonFIT"
+            android:background="@drawable/selector_button_room"
+            android:layout_margin="10dp"
+            android:padding="5dp"/>
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/ise"
+            android:id="@+id/buttonISE"
+            android:layout_below="@+id/buttonFOGI"
+            android:background="@drawable/selector_button_room"
+            android:layout_margin="10dp"
+            android:padding="5dp"/>
+        </GridLayout>
+</RelativeLayout>
